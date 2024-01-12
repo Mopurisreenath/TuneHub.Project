@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(106,90,205);
+    text-align: center;
+}
+
+.ah {
+    background-color: rgb(0,255,255);
+    color:rgb(106,90,205);
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.ns, .vs, .cp, .vps {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    color: rgb(0,0,0);
+    font-weight: bold;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: rgb(184,134,11);
+    color:rgb(106,90,205);
+}

@@ -1,0 +1,44 @@
+/* Style for the form container */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid rgb(128,0,128);
+  border-radius: 5px;
+}
+.ad {
+    background-color: rgb(100,149,237);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Style for the form labels */
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Style for the form input fields */
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+  background-color: rgb(153,50,204);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Optional: Add some spacing between form sections */
+.sn, .sa, .sg, .sl {
+  margin-bottom: 15px;
+}

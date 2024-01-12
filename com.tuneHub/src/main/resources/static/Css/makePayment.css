@@ -1,0 +1,15 @@
+/* Style for the container div */
+.mp {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Style for the heading */
+h1 {
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}

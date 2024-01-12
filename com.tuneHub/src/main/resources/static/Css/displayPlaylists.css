@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(176,196,222);
+    margin: 0;
+}
+
+.ns {
+    background-color: rgb(106,90,205);
+    color: rgb(176,196,222);
+    padding: 10px;
+    text-align: center;
+}
+
+.dpl {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(106,90,205);
+    color: rgb(176,196,222);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 5px;
+}

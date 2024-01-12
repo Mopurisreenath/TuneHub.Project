@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Your Account</title>
+<link rel="stylesheet" th:href="@{/Css/registration.css}">
+</head>
+<body>
+<div class="wt">
+<h1>Welcome to TuneHub!</h1>
+</div>
+<div class="ca">
+      <h2>Create Your Account</h2>
+      </div> 
+	<form action="registration" method="post">
+     <div class="un">
+		<label> User name: </label> <input type="text" name="username" />
+		 <br><br>
+		 </div>
+		 <div class="em">
+		  <label>Email: </label> <input type="email" name="email" />
+		 <br><br>
+		 </div>
+		 <div class="psw">
+		 <label>Password: </label> <input type="password"name="password" />
+		  <br><br>
+		  </div>
+		  <div class="gn">
+		   <label>Gender: </label> 
+		   Male<input type="radio"name="gender" value="male" /> 
+		   Female<input type="radio" name="gender"value="female" />
+		    Others<input type="radio" name="gender"value="others" />
+		     <br><br> 
+		     </div>
+		     <div class="rl">
+			 <label> Role: </label>
+			  Admin<input type="radio" name="role"value="admin" />
+			  Customer <input type="radio" name="role"value="customer" />
+			   <br><br>
+			   </div>
+			   <div class="ar">
+			 <label> Address: </label>
+		<textarea name="address"></textarea>
+		<br><br>
+		</div>
+		<div class="sb">
+		 <input type="submit" />
+     </div>
+	</form>
+
+</body>
+</html>
